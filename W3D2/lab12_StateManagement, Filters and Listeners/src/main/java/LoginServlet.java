@@ -36,7 +36,8 @@ public class LoginServlet extends HttpServlet {
         PrintWriter out = resp.getWriter();
         out.print("<html><head><title>CSTech</title></head><body>");
         out.println("<form method=post>");
-        out.println("Username: <input type=text name=user_name placeholder=enterusername value=$(userName)> <br />");
+        out.println("Username: <input type=\"text\" name=\"user_name\" placeholder=\"enterusername\" value="
+                + userName + "> <br />");
         out.println("Password: <input type=password name=pswd placeholder=enterpassword> <br />");
         if(!userName.equals(""))
             out.println("<input type=checkbox name=remember checked> Remember me <br />");

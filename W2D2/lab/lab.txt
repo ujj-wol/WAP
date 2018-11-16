@@ -1,0 +1,14 @@
+Instructions
+	1.	Create a function expression named createBicyclePrototye which returns an object literal with one property speed set to value 0 and two methods
+	a.	applyBrake that takes a parameter and decrement the current speed of the object by that given value.
+	b.	speedup that takes a parameter increment current speed by given value.
+	2.	Create another function expression named createMountainBikeProtoype   that take a prototype parameter and returns an object created using Object.create (prototype) with one additional property gear set to value 1 and one additional method setGear which takes a parameter and sets gear value for the object.
+	3.	Write third function expression named start that first make bicyclePrototype object using first function and then mountainBikePrototype object using second function, passing bicyclePrototype as argument.
+	4.	Now create some objects from both bicyclePrototype and mountainBikePrototype using Object.create() and play with it. (do some console.log)
+	5.	Wrap all three functions in a module so that we have only one module variable in the global name space.
+	6.	Make use of 'use strict' at the top of your module.
+ 
+Optionally try following.
+ 
+	1.	Now, try to achieve above functionality, this time using constructor function instead of object literals.
+	2.	Finally, do it using the class construct in ES6

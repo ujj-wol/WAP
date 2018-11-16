@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f3f1f1;
+}
+
+.header {
+    height: 60px;
+    margin: auto;
+    margin-bottom: 10px;
+    clear: both;
+    text-align: center;
+}
+
+img {
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mastercard {
+    height: 55px;
+}
+
+.left-header {
+    width: 49%;
+    text-align: right;
+    float: left;
+}
+
+.right-header {
+    width: 49%;
+    text-align: left;
+    float: left;
+}
+
+.right-header p {
+    padding: 0 15px;
+    color: white;
+}
+
+.header > a {
+    padding: 15px;
+}
+
+.vertical-bar {
+    width: 1px;
+    height: 60px;
+    background-color: gray;
+    float: left;
+}
+
+#highlight {
+    background-image: url(https://applynow.capitalone.com/images/quicksilverone/quicksilverone_2017-04-12-bg.jpg);
+    padding: 10px 10px 0 10px;
+}
+
+#main-content-area {
+    width: 900px;
+    margin: auto;
+    border:gray 1px solid;
+    background-color: white;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: steelblue;
+    font-weight: normal;
+}
+
+h3 {
+    color: white;
+    background-color: grey;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-section {
+    margin: 30px;
+}
+
+.text-fields {
+    float: left;
+    margin: 2px 0;
+}
+
+.text-fields > div {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+#personalInformationSection img {
+    float: right;
+    height: 180px;
+}
+
+div:nth-child(5) {
+    clear: right;
+}
+
+#contactInformation div:nth-child(3) {
+    clear: both;
+}
+
+hr {
+    clear: both;
+    margin: 30px 0;
+    width: 850px;
+}
+
+#footer {
+    clear: both;
+    background-color: #d4cfcf;
+    overflow: auto;
+}
+
+#footer section {
+    margin: 0 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+
+#foot-right {
+    float: right;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#foot-image img {
+    height: 50px;
+    float: left;
+}
+
+#foot-image span {
+    clear: both;
+}
+
+input[type=submit] {
+    background-color: rgb(18, 93, 143);
+    width: -webkit-fill-available;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=email], input[type="tel"] {
+    margin: 5px 0;
+    height: 30px;
+    border: rgb(190, 183, 183) solid 2px;
+    border-radius: 3px;
+    width: 350px;
+}
+
+#personalInformationSection input[type=text], #personalInformationSection input[type=password], #personalInformationSection input[type=date] {
+    width: 150px;
+}
+
+#html-css-validation {
+   width: min-content;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+}

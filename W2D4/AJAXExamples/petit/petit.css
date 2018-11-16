@@ -1,0 +1,89 @@
+/*
+CSE 190M, Spring 2009
+Section 7: Pet-It
+original page idea and code by Stefanie Hatcher
+*/
+
+#banner {
+	background-color: #CC9900;
+	padding-left: 48px;
+}
+
+#banner, #main {
+	border: 2px solid #CC9900;
+	width: 75%;
+	margin-left: 5%;
+}
+
+body {
+	background-color: #FFFF99;
+	color: #003333;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12pt;
+	padding: 0px;
+	margin: 0px;
+}
+
+.column {
+	float: left;
+	width: 46%;
+	margin-right: 2%;
+}
+
+.column img {
+	width: 100%;
+}
+
+h1, h2 {
+	text-align: center;	
+}
+
+hr {
+	margin-top: 2.5em;
+	clear: left;	
+}
+
+label {
+	margin-right: 3em;	
+}
+
+#main {
+	background-color: #FFFFFF;
+	padding: 1.5em;
+	overflow: hidden;
+}
+
+#nextblob {
+	font-size: 45%;
+	padding: 1%;
+	position: absolute;
+	right: 2%;
+	top: 20%;
+	width: 10%;
+}
+
+#nextblob:hover {
+	background-color: #FFCCCC;
+}
+
+#nextblob img {
+	width: 100%;
+}
+
+.selected {
+	background-color: #CC9900;
+	font-weight: bold;
+}
+
+ul {
+	width: 60%;
+}
+
+#w3c {
+	margin-top: 1em;
+	text-align: center;
+}
+
+#w3c a img {
+	border: 0;
+}

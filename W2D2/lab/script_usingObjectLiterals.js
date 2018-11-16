@@ -1,0 +1,62 @@
+/*jshint esversion: 6 */
+(function () {
+    "use strict";
+
+    var bicyclePrototype;
+    var mountainbikePrototype;
+
+    var createBicyclePrototype = function () {
+        return {
+            speed: 0,
+            applyBrake: function (reduce) {
+                this.speed = this.speed - reduce;
+            },
+            speedUp: function (increment) {
+                this.speed += increment;
+            }
+        };
+    };
+
+    var createMountainBikePrototype = function (bike) {
+        var mountainbike = Object.create(bike);
+        mountainbike.gear = 1;
+        mountainbike.setGear = function (newGear) {
+            this.gear = newGear;
+        };
+        return mountainbike;
+    };
+
+    var start = function () {
+        bicyclePrototype = createBicyclePrototype();
+        mountainbikePrototype = createMountainBikePrototype(bicyclePrototype);
+
+        var bicycle1 = Object.create(bicyclePrototype);
+        var mtbike1 = Object.create(mountainbikePrototype);
+        var mtbike2 = Object.create(mountainbikePrototype);
+        
+
+        console.log("speed: " + mtbike1.speed);
+        mtbike1.speedUp(3);
+        mtbike1.speedUp(5);
+        console.log("speed: " + mtbike1.speed);
+        console.log("speed: " + bicycle1.speed);
+        bicycle1.speedUp(10);
+        bicycle1.applyBrake(3);
+
+        mtbike1.setGear(7);
+        bicycle1.speed = 2;
+
+        mtbike2.gear = 5;
+        mtbike2.speedUp(3);
+
+        console.log("\nbicycle1: ");
+        console.log(bicycle1);
+        console.log("\nmtbike1: ");
+        console.log(mtbike1);
+        console.log("\nmtbike2: ");
+        console.log(mtbike2);
+
+    };
+
+    start();
+})();

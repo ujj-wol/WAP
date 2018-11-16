@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+#myPhoto {
+    border-radius: 40px;
+    height: 300px;
+}
+
+ul, ol {
+    list-style-type: none;
+}

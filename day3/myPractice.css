@@ -1,0 +1,15 @@
+img {
+    float: right;
+    margin: 0 1em 1em 1em;
+}
+
+p {
+    border: black;
+    border: 2pt;
+    border: solid;
+    overflow: auto;
+}
+
+p + p {
+    clear: right;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://applynow.capitalone.com/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Apply for a Capital One Card</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left-header">
+            <a href="https://www.capitalone.com/">
+                <img class="capital" src="https://applynow.capitalone.com/images/capitalone_logo_fullres.png" alt="capital one logo"></a>
+        </div>
+        <div class="vertical-bar"></div>
+        <div class="right-header">
+            <img class="mastercard" src="images/MasterCard_logo.png" alt="mastercard logo">
+        </div>
+    </div>
+
+    <div id="highlight">
+        <div class="header">
+            <div class="left-header">
+                <img src="https://applynow.capitalone.com/images/quicksilverone/quicksilverone_2017-04-12-name.png" alt="quicksilverone name">
+            </div>
+            <div class="vertical-bar"></div>
+            <div class="right-header">
+                <p>Earn unlimited 1.5% cash back on every <br> purchase, every day</p>
+            </div>
+        </div>
+
+        <div class="header">
+            <a href="">SECURITY</a>
+            <a href="">FAQ</a>
+        </div>
+        <div id="drop-down">
+            <h3>View Card Summary </h3>
+        </div>
+    </div>
+
+    <div id="main-content-area">
+
+        <div>
+            <div class="form-block">
+                <form>
+                    <section class="form-section" id="personalInformationSection">
+                        <div>
+                            <h2>Personal Information</h2>
+                        </div>
+
+                        <img src="https://applynow.capitalone.com/images/quicksilverone/QuicksilverOneCard_2017-04-12_sm.png"
+                            alt="quicksilver Card">
+
+                        <div class="text-fields">
+                            <div>
+                                <label for="fName">FIRST NAME</label><br>
+                                <input type="text" id="fName" pattern="^[a-zA-Z0-9]+"></div>
+                            <div>
+                                <label for="mName">MI</label><br>
+                                <input type="text" id="mName" pattern="^[a-zA-Z0-9]*"></div>
+                            <div>
+                                <label for="lName">LAST NAME</label><br>
+                                <input type="text" id="lName" pattern="^[a-zA-Z0-9]+"></div>
+                        </div>
+
+                        <div class="text-fields">
+                            <div>
+                                <label for="dob">DATE OF BIRTH</label><br>
+                                <input type="date" id="dob"></div>
+                            <div>
+                                <label for="pswd">SOCIAL SECURITY NUMBER</label><br>
+                                <input type="password" id="pswd" maxlength="10" pattern="^[1-9][0-9]{9}$"></div>
+                        </div>
+                        <div>
+                            <span>Are you a U.S. Citizen?</span>
+                            <label><input type="radio" name="usCitizen" value="us-citizen" checked>YES</label>
+                            <label><input type="radio" name="usCitizen" value="non-us-citizen">NO</label>
+                        </div>
+                        <hr>
+                    </section>
+                    <section class="form-section" id="contactInformation">
+                        <div>
+                            <h2>Contact Information</h2>
+                        </div>
+                        <div class="text-fields">
+                            <div>
+                                <label for="address">RESIDENTAL ADDRESS (No PO Boxes or CMRA)</label><br>
+                                <input type="text" id="address">
+                            </div>
+                            <div>
+                                <label for="localAddress">SUITE/APT# (if applicable)</label><br>
+                                <input type="text" id="localAddress">
+                            </div>
+                        </div>
+                        <div>
+                            <p>+ Add mailing address if different from residental address</p>
+                        </div>
+                        <div class="text-fields">
+                            <div>
+                                <label for="email">EMAIL ADDRESS</label><br>
+                                <input type="email" id="email" pattern="^[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+.[a-zA-Z0-9]+">
+                                <p>When you provide your email address, we may use it to<br> send you important
+                                    information
+                                    about your application and<br> account(s), as well as other useful products and
+                                    services.</p>
+                            </div>
+                            <div>
+                                <label for="phone">PRIMARY PHONE NUMBER</label><br>
+                                <input type="tel" id="phone">
+                            </div>
+                        </div>
+                        <hr>
+
+                    </section>
+                    <section class="form-section" id="financialInformation">
+                        <div>
+                            <h2>Financial Information</h2>
+                        </div>
+                        <div class="text-fields">
+                            <div>
+                                <label for="other-bankAccounts">DO YOU HAVE ANY BANK ACCOUNTS?</label><br>
+                                <input type="text" id="other-bankAccounts">
+                            </div>
+                            <div>
+                                <label for="employment">EMPLOYMENT STATUS</label><br>
+                                <input type="text" id="employment">
+                            </div>
+                        </div>
+                        <hr>
+
+                    </section>
+                    <section class="form-section" id="additionalInformation">
+                        <div>
+                            <h2>Additional Information</h2>
+                        </div>
+                        <div>
+                            <p>We need your agreement to receive by electronic means only communications regarding your
+                                application, including notice of our decision on your application and important account
+                                opening information regarding rates, fees and other costs related to the credit card
+                                for
+                                which you are applying. Please review the terms of our Electronic Communications
+                                Disclosure.</p>
+                            <label><input type="checkbox">
+                                I have reviewed and agree to the terms of the Electronic Communications Disclosure. I
+                                confirm that I have an active email address and the ability to access, view and print
+                                PDF
+                                files.
+                            </label>
+                            <div>
+                                <p>
+                                    Some of our communications are available in both English and Spanish. Which
+                                    language
+                                    would
+                                    you prefer for future communications?
+                                </p>
+                                <fieldset>
+                                    <legend>Language:</legend>
+                                    <label><input type="radio" name="language" id="english">ENGLISH</label>
+                                    <label><input type="radio" name="language" id="spanish">SPANISH</label>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <hr>
+
+                    </section>
+                    <section class="form-section">
+                        <div>
+                            <h2>Important Disclosures</h2>
+                        </div>
+                        <div>
+                            <h4>Download/Print</h4>
+                        </div>
+                        <div>
+                            <p>
+                                Before you submit your application, please read through these Important Disclosures,
+                                which
+                                contain additional information about eligibility, rates, fees, and other costs, as
+                                applicable.
+                            </p>
+                        </div>
+                    </section>
+
+                    <div>
+                        <input type="submit" value="Continue">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <section>
+            <div class="horizontal-list">
+                <ul>
+                    <li><a href="">PRIVACY</a></li>
+                    <li><a href="">SECURITY</a></li>
+                    <li><a href="">TERMS & CONDITIONS</a></li>
+                    <li><a href="">ACCESSIBILITY</a></li>
+                    <li><a href="">LEGAL</a></li>
+                </ul>
+            </div>
+
+            <div id="foot-right">
+                MEMBER FDIC <br>
+                Equal Housing Lender
+            </div>
+
+            <div id="foot-image">
+                <img src="https://applynow.capitalone.com/images/capitalone_logo_fullres.png" alt="capital one logo">
+                <span>©2018 Capital One</span>
+            </div>
+
+            <div id="html-css-validation">
+                <p>
+                    <a href="http://validator.w3.org/check/referer">
+                        <img src="../../day3/homework2/images/w3c-html.png" alt="Valid HTML">
+                    </a>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img src="../../day3/homework2/images/w3c-css.png" alt="Valid CSS">
+                    </a>
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -75,8 +75,8 @@ init = function() {
 };
 */
 
-#puzzlearea > div {
+/* #puzzlearea > div {
 	width: 25%;
 	float: left;
-}
+} */
 
